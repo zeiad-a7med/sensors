@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "557915456897",
+    "firebase_url": "https://sensor-app-ab31b-default-rtdb.firebaseio.com",
+    "project_id": "sensor-app-ab31b",
+    "storage_bucket": "sensor-app-ab31b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557915456897:android:b9a22bdff226a4e8dbd480",
+        "android_client_info": {
+          "package_name": "com.example.sensorapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN1wML_PnIXV5N6V4D1M5zBw_We9TUtLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557915456897:android:819c378a9e67072cdbd480",
+        "android_client_info": {
+          "package_name": "com.example.weather"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN1wML_PnIXV5N6V4D1M5zBw_We9TUtLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
