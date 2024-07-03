@@ -51,6 +51,8 @@ dependencies:
   flutter_ringtone_player: any
   flutter_riverpod: ^2.4.9
   timezone: ^0.9.0
+  android_alarm_manager_plus: ^2.0.0
+
 
 
 dev_dependencies:

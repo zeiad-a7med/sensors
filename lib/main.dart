@@ -1,5 +1,6 @@
 import 'package:get/get.dart';
 import 'firebase_options.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 import 'package:timezone/timezone.dart';
 import 'package:weather/core/alarm.dart';
@@ -27,6 +28,8 @@ final socketProvider = StateNotifierProvider<MySocket, bool>((ref) {
 // final alarmProvider = StateNotifierProvider<AlarmNotify, bool>((ref) {
 //   return AlarmNotify();
 // });
+const platform = MethodChannel('com.example.weather/alarm');
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
